@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: #34353a;
+}
+
+a:hover {
+  color: #424ba3;
+}
+
+#firebaseui_container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.greeting_heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.gh_sign_out_button {
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  right: 10px;
+  width: 95px;
+  height: 35px;
+  border: 1px solid #6672f4;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.gh_sign_out_button:hover {
+  background-color: #6672f4;
+  color: white;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.mentor_search_block {
+  display: flex;
+  justify-content: center;
+}
+
+.mentor_search_block_heading {
+  line-height: 38px;
+  margin-right: 10px;
+}
+
+.mentor_search_block_input {
+  width: 60%;
+}
+
+.dashboard_table {
+  margin: 50px auto 0;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 5px solid #6672f4;
+}
+
+td {
+  border: 1px solid #424ba3;
+  width: 150px;
+  padding: 3px;
+  text-align: center;
+  color: #34353a;
+}
+
+.task_name {
+  width: 250px;
+}
+
+.dashboard_legend {
+  display: flex;
+  margin: 20px auto 0;
+  width: 400px;
+  border: 5px solid lightgrey;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dashboard_legend_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dashboard_legend_item_color_block {
+  height: 25px;
+  width: 70px;
+  margin-right: 10px;
+}
+
+.dashboard_legend_item_caption {
+  float: right;
+  font-size: 13px;
+}
+
